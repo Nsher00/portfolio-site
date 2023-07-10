@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heroBar{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.heroName{
+    font-size: 42px;
+}
+
+.heroTitle{
+    font-size: larger;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 63, 63);
+    height: 65px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.navItem{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    color: white;
+    height: 100%;
+    font-size: large;
+    text-decoration: none;
+}
+
+
+.navItem a{
+    text-decoration: none;
+    width: 100%;
+}
+
+.navItem :visited{
+    color: white;
+}
+
+.navItem:hover{
+    text-decoration: underline;
+}
+
+.bioSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bioSection img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 50px;
+}
+
+.bioDesc{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.techSection{
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.techText{
+    color: white;
+    font-size: x-large;
+    margin: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+}
+
+.projectSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectsText{
+    font-size: x-large;
+}
+
+.projectOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px;
+}
+
+.projectTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px;
+}
+
+.projectThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px;
+}
+
+.projectDesc{
+    width: 400px;
+}
+
+.projectVid{
+    height: 200px;
+    border-style: solid;
+    border-width: medium;
+}
+
+.contactSection{
+    color: white;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
