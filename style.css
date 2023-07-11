@@ -52,6 +52,7 @@ nav ul{
 .navItem a{
     text-decoration: none;
     width: 100%;
+    color: white;
 }
 
 .navItem :visited{
@@ -62,13 +63,13 @@ nav ul{
     text-decoration: underline;
 }
 
-.bioSection{
+#bioSection{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bioSection img{
+#bioSection img{
     height: 300px;
     width: 300px;
     border-radius: 100%;
@@ -84,7 +85,7 @@ nav ul{
     padding-left: 50px;
 }
 
-.techSection{
+#techSection{
     background-color: teal;
     display: flex;
     align-items: center;
@@ -112,7 +113,7 @@ footer{
     height: 50px;
 }
 
-.projectSection{
+#projectSection{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,6 +122,7 @@ footer{
 
 .projectsText{
     font-size: x-large;
+    margin-top: 50px;
 }
 
 .projectOne{
@@ -157,7 +159,7 @@ footer{
     border-width: medium;
 }
 
-.contactSection{
+#contactSection{
     color: white;
     background-color: teal;
     display: flex;
