@@ -77,10 +77,6 @@ nav ul{
 }
 
 .bioDesc{
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 500px;
     padding-left: 50px;
 }
@@ -169,9 +165,12 @@ footer{
     height: 200px;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 600px) {
     .projectOne {justify-content: center; flex-direction: column;}
+    .projectTwo {justify-content: center; flex-direction: column;}
+    .projectThree {justify-content: center; flex-direction: column;}
     #bioSection{justify-content: center; flex-direction: column;}
-    #bioSection img{height: 100px; width: 100px;}
-    #bioDesc{width: fit-content;}
+    #bioSection img{height: 150px; width: 150px;}
+    #bioDesc{width: 360px; padding-left: 0px;}
+    nav ul{visibility: hidden;}
 }
