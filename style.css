@@ -168,3 +168,10 @@ footer{
     flex-direction: column;
     height: 200px;
 }
+
+@media screen and (min-width: 390px) {
+    .projectOne {justify-content: center; flex-direction: column;}
+    #bioSection{justify-content: center; flex-direction: column;}
+    #bioSection img{height: 100px; width: 100px;}
+    #bioDesc{width: fit-content;}
+}
